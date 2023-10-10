@@ -8,3 +8,12 @@ header {
     /* Specify the color of the icon */
     filter: brightness(0%)
 }
+
+.card-body {
+    background-color: gray;
+}
+
+.card-body figure {
+    height:25%;
+    width:25%;
+}
