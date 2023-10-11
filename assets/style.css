@@ -1,5 +1,5 @@
 body { 
-    background: black !important; 
+    background: rgb(25,25,25) !important; 
 }
 
 header {
@@ -39,7 +39,7 @@ header {
 }
 
 .bd-example {
-    background-color: black;
+    background-color: rgb(25,25,25);
     margin-top: 0px;
 }
 
