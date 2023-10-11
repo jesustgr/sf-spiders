@@ -30,6 +30,8 @@ header {
     text-align: center;
     color: white;
     background-color: rgb(50,50,50);
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .email-button {
@@ -41,6 +43,8 @@ header {
     margin-top: 0px;
 }
 
-.instagram-logo::hover {
-    background-color: red !important;
+.nav-link:hover {
+    background-color: pink;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
 }
