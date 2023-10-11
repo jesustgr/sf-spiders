@@ -13,14 +13,14 @@ header {
     filter: brightness(100%)
 }
 
-.card-body {
+/* .card-body {
     background-color: gray;
 }
 
 .card-body figure {
     height:25%;
     width:25%;
-}
+} */
 
 .display-4 {
     margin-top: 50px;
@@ -34,9 +34,9 @@ header {
     padding-bottom: 20px;
 }
 
-.email-button {
+/* .email-button {
     height: 50px;
-}
+} */
 
 .bd-example {
     background-color: rgb(25,25,25);
@@ -47,4 +47,25 @@ header {
     background-color: pink;
     border-radius: 10px;
     transition: background-color 0.5s ease;
+}
+
+.mission-card {
+    background-color: rgb(50,50,50);
+    margin: 50px;
+    margin-top: 125px;
+    color: white;
+    border-radius: 10px;
+}
+
+.mission-title {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(255,0,0), 0 0 5px rgb(255,0,0); 
+    font-size: 60px;
+}
+
+.mission-text {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
 }
