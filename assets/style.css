@@ -1,3 +1,7 @@
+body { 
+    background: black !important; 
+}
+
 header {
     text-align: center;
 }
@@ -6,7 +10,7 @@ header {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     /* Specify the color of the icon */
-    filter: brightness(0%)
+    filter: brightness(100%)
 }
 
 .card-body {
@@ -16,4 +20,27 @@ header {
 .card-body figure {
     height:25%;
     width:25%;
+}
+
+.display-4 {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    text-align: center;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+
+.email-button {
+    height: 50px;
+}
+
+.bd-example {
+    background-color: black;
+    margin-top: 0px;
+}
+
+.instagram-logo::hover {
+    background-color: red !important;
 }
