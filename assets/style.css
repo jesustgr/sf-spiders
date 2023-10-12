@@ -69,3 +69,20 @@ header {
     padding-right: 50px;
     font-size: 20px;
 }
+
+.player-deck {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.player-card {
+    background-color: rgb(50,50,50);
+    color: white;
+    text-align: center;
+}
+
+.player-img {
+    width: 90%;
+    margin: 5%;
+}
