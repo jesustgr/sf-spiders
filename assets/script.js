@@ -1,1 +1,3 @@
-document.getElementById
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
