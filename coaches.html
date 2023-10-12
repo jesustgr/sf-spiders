@@ -28,9 +28,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="players.html">Player Bios</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Upcoming Events</a>
-                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Upcoming Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Events Coming Soon!</a>
+                    </div>
+                  </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"><img src="assets/instagram.svg" alt="instagram logo" width="30" height="24"/></a>
                 </li>
@@ -38,12 +43,32 @@
                   <a class="nav-link" href="#"><img src="assets/email.svg" alt="instagram logo" width="30" height="24"/></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="assets/telephone.svg" alt="instagram logo" width="30" height="24"/></a>
+                  <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#"><img src="assets/telephone.svg" alt="instagram logo" width="30" height="24"/></a>
                 </li>
               </ul>
             </div>
           </nav>
     </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contact Us via Call or Text!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              (415) 269-5131
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
