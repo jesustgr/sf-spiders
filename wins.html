@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WINS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg py-3 navbar-light bg-light">
+            <a class="navbar-brand" href="#">SF SPIDERS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mission.html">Our Mission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="coaches.html">Meet the Coaches</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="players.html">Player Bios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="wins.html">Tournament Wins</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Upcoming Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item">Events Coming Soon!</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Visit our Instagram!" href="https://www.instagram.com/coach_dsreyes/" target="_blank"><img src="assets/instagram.svg" alt="instagram logo" width="30" height="24"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="modal" data-target="#emailTarget" href="#"><img src="assets/email.svg" alt="instagram logo" width="30" height="24"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="modal" data-target="#telephoneTarget" href="#"><img src="assets/telephone.svg" alt="instagram logo" width="30" height="24"/></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Email Modal -->
+    <div class="modal fade" id="emailTarget" tabindex="-1" role="dialog" aria-labelledby="emailTargetLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="emailTargetLabel">Contact Our Program Director via Email!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            dennisreyes.dr@icloud.com
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger" href="mailto:dennisreyes.dr@icloud.com">Contact Now!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Phone Modal -->
+    <div class="modal fade" id="telephoneTarget" tabindex="-1" role="dialog" aria-labelledby="telephoneTargetLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="telephoneTargetLabel">Contact Us via Call or Text!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                Dennis Reyes | Program Director/Coach: (415) 269-5131
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>
