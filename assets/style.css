@@ -119,6 +119,7 @@ header {
 .coach-img {
     width: 80%;
     margin: 10%;
+    margin-bottom: 0%;
     border-radius: 10px;
 }
 
