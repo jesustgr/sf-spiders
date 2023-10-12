@@ -75,7 +75,8 @@ header {
     margin: 50px;
     margin-top: 125px;
     color: white;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
 .player-deck {
     margin-top: 20px;
@@ -98,4 +99,29 @@ header {
     width: 90%;
     margin: 5%;
     border-radius: 10px;
+}
+
+.coach-page-card {
+    background-color: rgb(50,50,50);
+    margin: 50px;
+    margin-top: 125px;
+    color: white;
+    border-radius: 10px;
+}
+
+.coach-card {
+    background-color: rgb(75,75,75);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.coach-img {
+    width: 80%;
+    margin: 10%;
+    border-radius: 10px;
+}
+
+.coach-deck {
+    margin: 20px;
 }
