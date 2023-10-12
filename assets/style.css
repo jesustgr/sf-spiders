@@ -24,6 +24,7 @@ header {
 
 .display-4 {
     margin-top: 50px;
+    font-weight: bolder;
 }
 
 .jumbotron {
