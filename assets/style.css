@@ -139,7 +139,8 @@ header {
 }
 
 .hof-img {
-    margin: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     width: 95%;
     border-radius: 10px;
 }
@@ -150,12 +151,13 @@ header {
     text-align: center;
     border-radius: 10px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .hof-title {
-    padding-top: 80px;
+    font-size: 1.5vw;
 }
 
 .hof-text {
-    padding-bottom: 80px;
+    font-size: 1.5vw;
 }
