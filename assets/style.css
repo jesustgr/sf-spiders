@@ -81,7 +81,7 @@ header {
     margin-top: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .player-page-card {
@@ -168,8 +168,9 @@ header {
 
 .hof-title {
     font-weight: bolder;
+    font-size: 1.5vw;
 }
 
-/*.hof-text {
+.hof-text {
     font-size: 1.5vw;
-} */
+}
