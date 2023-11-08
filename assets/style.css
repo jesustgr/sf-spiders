@@ -154,10 +154,10 @@ header {
     justify-content: center;
 }
 
-/* .hof-title {
-    font-size: 1.5vw;
+.hof-title {
+    font-weight: bolder;
 }
 
-.hof-text {
+/*.hof-text {
     font-size: 1.5vw;
 } */
