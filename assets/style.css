@@ -25,15 +25,15 @@ header {
 .display-4 {
     margin-top: 50px;
     font-weight: bolder;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 .lead {
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 .learn-more {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .jumbotron {
