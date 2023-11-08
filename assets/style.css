@@ -24,13 +24,14 @@ header {
 
 .display-4 {
     margin-top: 75px;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 8vw;
     margin-bottom: 3.75%;
 }
 
 .lead {
     font-size: 3vw;
+    font-weight: 450;
     margin-bottom: 3.75%;
 }
 
