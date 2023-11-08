@@ -168,9 +168,9 @@ header {
 
 .hof-title {
     font-weight: bolder;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
 }
 
-.hof-text {
+/* .hof-text {
     font-size: 1.5vw;
-}
+} */
