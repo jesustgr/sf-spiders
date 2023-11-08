@@ -23,7 +23,7 @@ header {
 } */
 
 .display-4 {
-    margin-top: 7.5%;
+    margin-top: 100px;
     font-weight: bolder;
     font-size: 8vw;
     margin-bottom: 3.75%;
@@ -73,7 +73,7 @@ header {
 .mission-title {
     text-align: center;
     text-shadow: 0 0 3px rgb(255,0,0), 0 0 5px rgb(255,0,0); 
-    font-size: 5vw;
+    font-size: 8vw;
     font-weight: bolder;
 }
 
