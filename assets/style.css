@@ -25,6 +25,11 @@ header {
 .display-4 {
     margin-top: 50px;
     font-weight: bolder;
+    font-size: 5vw;
+}
+
+.lead {
+    font-size: 2.5vw;
 }
 
 .jumbotron {
@@ -42,6 +47,7 @@ header {
 .bd-example {
     background-color: rgb(25,25,25);
     margin-top: 0px;
+    margin-bottom: 1%;
 }
 
 .nav-link:hover {
